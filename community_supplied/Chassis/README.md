@@ -1,5 +1,4 @@
 # HealthBot Chassis KPI rules and playbooks
-
 ## Chassis playbooks
 ### Playbook name: netconf-chassis-playbook 
 

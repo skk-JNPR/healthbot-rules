@@ -1,0 +1,11 @@
+/*
+ * Playbook monitor mpls kpis and notifies when below anomalies are found.
+ * 
+ */
+ healthbot {
+    playbook infrastructure-mpls-kpis {
+        rules [ mpls/check-ldp-session mpls/check-lsp-state mpls/check-rsvp-neighbor-state mpls/check-te-rsvp-global-errors mpls/check-te-rsvp-interface-errors ];
+        description "Playbook to check mpls health kpis";
+        synopsis "Mpls key performance indicators";
+    }
+}
